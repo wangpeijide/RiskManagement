@@ -1,1 +1,1 @@
-"C:\Program Files\Git\bin\bash.exe" --login -i .\buildserver.sh
+"C:\Program Files\Git\bin\bash.exe" --login .\buildserver.sh
