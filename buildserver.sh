@@ -99,7 +99,7 @@ export -f docker
 
 if [ $# -eq 0 ]; then
   echo "Start interactive shell"
-  exec "$BASH" --login -i "E:\eclipse\php\RiskManagement\build.sh"
+  exec "$BASH" --login "E:\eclipse\php\RiskManagement\build.sh"
 else
   echo "Start shell with command"
   exec "$BASH" -c "$*"
